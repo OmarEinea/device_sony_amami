@@ -1,12 +1,20 @@
 [
   {
-    "repository": "CarbonDev/proprietary_vendor_sony",
-    "target_path": "vendor/sony"
+    "remote": "tm",
+    "repository": "proprietary_vendor_sony",
+    "target_path": "vendor/sony",
+    "revision": "cm-11.0"
   },
   {
     "remote": "cm",
     "repository": "CyanogenMod/android_device_sony_rhine-common",
     "target_path": "device/sony/rhine-common",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "cm",
+    "repository": "CyanogenMod/android_device_sony_msm8974-common",
+    "target_path": "device/sony/msm8974-common",
     "revision": "cm-11.0"
   },
   {
